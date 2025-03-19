@@ -26,7 +26,7 @@
             <Button
                 x:Name="BotaoCompararCombustivel"
                 Text="Comparar Combustível" 
-                SemanticProperties.Hint="Compara qual combustível comprar"
+                SemanticProperties.Hint="Compara qual combustível deseja comprar"
                 Clicked="BotaoCompararCombustivel_Clicked"
                 HorizontalOptions="Fill" />
 
