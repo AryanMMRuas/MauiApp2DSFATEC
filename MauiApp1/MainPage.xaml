@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             Title="Menu Principal">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Button
+                x:Name="BotaoSaudacao"
+                Text="Ver Saudação" 
+                SemanticProperties.Hint="Abre a tela de Saudação"
+                Clicked="BotaoSaudacao_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="BotaoExemploPadrao"
+                Text="Ver Exemplo" 
+                SemanticProperties.Hint="Abre a tela de Exemplo"
+                Clicked="BotaoExemploPadrao_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="BotaoCompararCombustivel"
+                Text="Comparar Combustível" 
+                SemanticProperties.Hint="Compara qual combustível comprar"
+                Clicked="BotaoCompararCombustivel_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="BotaoCodigopage"
+                Text="Codigopage" 
+                SemanticProperties.Hint="Abre a tela Codigopage"
+                Clicked="BotaoCodigopage_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

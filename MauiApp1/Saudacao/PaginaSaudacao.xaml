@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Saudacao.PaginaSaudacao"
+             Title="Página de Saudação">
+    <VerticalStackLayout>
+        <Entry Placeholder="Informe seu nome" x:Name="txtNome" />
+        <Button Text="Saudação" x:Name="btnSaudacao" Clicked="btnSaudacao_Clicked" />
+        <Label x:Name="lblSaudacao"/>
+        <Button x:Name="BotaoVoltar" Text="Voltar" Clicked="BotaoVoltar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
